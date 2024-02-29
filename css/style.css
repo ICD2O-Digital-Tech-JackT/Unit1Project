@@ -21,6 +21,21 @@ h1 {
   background-color: #303030;
   color:white;
 }
+.container {
+  display: grid;
+   align-items: center; 
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 5px;
+}
+h3 {
+  padding:100px;
+  width:400px;
+}
+
+
+
+
+/*Filters that I copied code for*/
 .saturate { filter: saturate(3); }
 .grayscale { filter: grayscale(100%); }
 .contrast { filter: contrast(160%); }
