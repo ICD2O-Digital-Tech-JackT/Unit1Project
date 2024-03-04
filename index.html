@@ -3,7 +3,7 @@
 
 <head>
   <!-- Functions -->
-  
+
   <script>
     function AlertButtonClicked() {
       alert("Alert Button Clicked")
@@ -14,7 +14,7 @@
   </script>
 
 
-  
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <!-- MDL -->
@@ -26,7 +26,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./Ski_Favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./Ski_Favicon/favicon-16x16.png">
   <link rel="manifest" href="./Ski_Favicon/site.webmanifest">
-  
+
   <!-- Etc. -->
   <title>Skiing Website</title>
   <link href="./css/style.css" rel="stylesheet" type="text/css" />
@@ -36,51 +36,73 @@
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <!-- Header -->
   <h1>
-      My Webpage about skiing
-  <table>
-    <tr>
-      <th>
-        <!-- Flat button with ripple -->
-        <button style="color:white;" class="mdl-button mdl-js-button mdl-js-ripple-effect" onclick="CurrentPageButtonClicked()">
-          Home
-        </button>
-      </th> 
-      <th>
-         <!-- Flat button with ripple -->
-         <button style="color:white;" class="mdl-button mdl-js-button mdl-js-ripple-effect">
-           Page 2
-         </button>
-       </th>
-      <th>
-         <!-- Flat button with ripple -->
-         <button style="color:white;" class="mdl-button mdl-js-button mdl-js-ripple-effect">
-           Page 3
-         </button>
-      </th>
-      <th>
-         <!-- Flat button with ripple -->
-         <button onclick="AlertButtonClicked()" style="color:white;" class="mdl-button mdl-js-button mdl-js-ripple-effect" width="20px">
-           
-          <img title="brightness" class="brightness" src="./images/AlertIcon.png" alt="_" width="20px"height="20px" >
-         </button>
-       </th>
-    </tr> 
-  </table>
-    
+    My Webpage about skiing
+    <table>
+      <tr>
+        <th>
+          <!-- Flat button with ripple -->
+          <button style="color:white;" class="mdl-button mdl-js-button mdl-js-ripple-effect"
+            onclick="CurrentPageButtonClicked()">
+            Home
+          </button>
+        </th>
+        <th>
+          <!-- Flat button with ripple -->
+          <a href="./page2.html">
+            <button style="color:white;" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+              Page 2
+            </button>
+          </a>
+        </th>
+        <th>
+          <!-- Flat button with ripple -->
+          <a href="./smugglers.html">
+            <button style="color:white;" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+              Smugglers Notch
+            </button>
+          </a>
+        </th>
+        <th>
+          <!-- Flat button with ripple -->
+          <button onclick="AlertButtonClicked()" style="color:white;"
+            class="mdl-button mdl-js-button mdl-js-ripple-effect" width="20px">
+
+            <img title="brightness" class="brightness" src="./images/AlertIcon.png" alt="_" width="20px" height="20px">
+          </button>
+        </th>
+      </tr>
+    </table>
+
   </h1>
   </br>
   </br>
   </br>
   </br>
   <!-- Main Webpage -->
-  <div class = "container">
-    <img src="./images/SkiingGif.gif" alt="Logo"title="contrast" class="contrast" width="300px"height="400px">
+  <div class="container">
+    <img src="./images/SkiingGif.gif" alt="Logo" title="contrast" class="contrast" width="300px" height="400px">
     <h3>This is my WebPage about skiing. Here I will talk about why I enjoy skiing and stuff.</h3>
-    
+
   </div>
- 
-  
- 
+
+  </br>
+  </br>
+  </br>
+  <table style="background-color: gray; height:100px;">
+    <tr>
+      <th style="background-color: darkgray; width:100px ">Heres my switch:</th>
+      <th>
+        <!-- Switch -->
+        <label style="margin-left: auto; margin-right: auto; width: 40%;"
+          class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-2">
+          <input type="checkbox" id="switch-2" class="mdl-switch__input">
+          <span class="mdl-switch__label"></span>
+        </label>
+      </th>
+    </tr>
+  </table>
+
+
 </body>
 
 </html>
