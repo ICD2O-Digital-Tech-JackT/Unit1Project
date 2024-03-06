@@ -6,7 +6,7 @@
 
   <script>
     function AlertButtonClicked() {
-      alert("Alert Button Clicked")
+      alert("You just clicked the alert button!")
     }
     function CurrentPageButtonClicked() {
       alert("You are already on this page.")
@@ -28,7 +28,7 @@
   <link rel="manifest" href="./Ski_Favicon/site.webmanifest">
 
   <!-- Etc. -->
-  <title>Skiing Website</title>
+  <title>Smugglers Notch Trip</title>
   <link href="./css/style3.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -50,9 +50,9 @@
         </th>
         <th>
           <!-- Flat button with ripple -->
-          <a href="./page2.html">
+          <a href="./SkiVideos.html">
             <button style="color:#684012;" class="mdl-button mdl-js-button mdl-js-ripple-effect">
-              Page 2
+              Videos
             </button>
           </a>
         </th>
@@ -73,15 +73,23 @@
   </br>
   </br>
 
-  <h3>Here are some images of Smugglers Notch:</h3>
-  
+  <h3 style="color:rgb(150,150,50);">Here are some images of Smugglers Notch:</h3>
+
   <img src="images/MountainSide.JPG" style="width: 150px;">
   <img src="images/Hill1.JPG" style="height: 202.5px;">
   <img src="images/Hill2.JPG" style="width: 150px;">
 
+  </br>
 
+  <a href="https://www.smuggs.com/">Smugglers Notch Website</a>
 
-
+  <!-- Alert Button-->
+  <center>
+    <button style="width:100px; height:30px;" onclick="AlertButtonClicked()">
+      Click Me!!!
+    </button>
+  </center>
+  
 </body>
 
 </html>
