@@ -11,12 +11,7 @@ th {
   color: #26435a;
   width:10vh;
 }
-/*
-.rectangle {
-  height: 50px;
-  width:70vh;
-  background-color: #303030;
-}*/
+
 h1 {
   font-family: "Lucida Console", "Courier New", monospace;
   padding:20px;
@@ -39,13 +34,5 @@ h3 {
 
 
 
-/*Filters that I copied code for*/
-.saturate { filter: saturate(3); }
-.grayscale { filter: grayscale(100%); }
-.contrast { filter: contrast(160%); }
+/*Filter that I copied code for*/
 .brightness { filter: brightness(3); }
-.blur { filter: blur(3px); }
-.invert { filter: invert(100%); }
-.sepia { filter: sepia(100%); }
-.huerotate { filter: hue-rotate(180deg); }
-.rss.opacity { filter: opacity(50%); }
